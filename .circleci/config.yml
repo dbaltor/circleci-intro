@@ -11,6 +11,7 @@ jobs:
       - image: 'cimg/base:stable'
     steps:
       - run: echo Hello Denis
+      - run: echo Additional build step
 
 workflows:
     example-workflow:
